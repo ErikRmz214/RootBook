@@ -1,0 +1,86 @@
+[
+    {
+        "titulo": "Correr o Morir",
+        "saga": "Maze Runner",
+        "imagen":"img/correr o morir.webp",
+        "precio": 339.00,
+        "descripcion": "Thomas despierta en un ascensor que lo lleva a un lugar llamado 'El Claro' rodeado por un gigantesco laberinto. Junto a otros adolescentes, debe descubrir el misterio del laberinto y encontrar una salida."
+    },
+    {
+        "titulo": "La Prueba De Fuego",
+        "saga": "Maze Runner",
+        "imagen": "img/prueba de fuego.webp",
+        "precio": 339.00,
+        "descripcion": "Después de escapar del laberinto, Thomas y sus amigos se enfrentan a una nueva serie de desafíos en un desierto abrasador conocido como 'La Quemadura', donde deben superar pruebas mortales y descubrir los secretos de la organización CRUEL."
+    },
+    {
+        "titulo": "La Cura Mortal",
+        "saga": "Maze Runner",
+        "imagen":"img/La cura mortal.webp",
+        "precio": 339.00,
+        "descripcion": "Thomas y sus amigos intentan encontrar una cura para la enfermedad mortal conocida como 'El Destello' mientras descubren la verdad sobre CRUEL y su propio pasado. Las lealtades son probadas y las decisiones finales se toman."
+    },
+    {
+        "titulo": "Virus Letal",
+        "saga": "Maze Runner",
+        "imagen":"img/Virus letal.webp",
+        "precio": 339.00,
+        "descripcion": "Precuela de la serie Maze Runner, que narra los eventos que llevaron al mundo a convertirse en un lugar devastado. Un grupo de sobrevivientes lucha por su vida mientras intentan comprender el origen del virus que devastó a la humanidad."
+    },
+    {
+        "titulo": "Expedientes Secretos",
+        "saga": "Maze Runner",
+        "imagen":"img/Expedientes secretos.webp",
+        "precio": 339.00,
+        "descripcion": "Otra precuela que revela los secretos sobre la construcción del laberinto, los experimentos de CRUEL y cómo Thomas y los otros 'habitantes del claro' llegaron a ser sujetos de las pruebas. La verdad detrás de los orígenes del laberinto se desvela."
+    },
+    {
+        "titulo": "Los juegos Del Hambre",
+        "saga": "Los Juegos del Hambre",
+        "imagen":"img/los juegos del hambre.jpg",
+        "precio": 349.00,
+        "descripcion": "En una nación post-apocalíptica llamada Panem, Katniss Everdeen se ofrece como tributo para tomar el lugar de su hermana en los brutales Juegos del Hambre, una competencia televisada donde los adolescentes luchan a muerte."
+    },
+    {
+        "titulo": "En Llamas",
+        "saga": "Los Juegos del Hambre",
+        "imagen":"img/en llamas.jpg",
+        "precio": 419.00,
+        "descripcion": "Katniss y Peeta regresan a casa después de ganar los Juegos del Hambre, pero su victoria ha encendido una rebelión en los distritos de Panem. En medio de la agitación, deben volver a la arena en una edición especial de los juegos."
+    },
+    {
+        "titulo": "Sinsajo",
+        "saga": "Los Juegos del Hambre",
+        "imagen":"img/sinsajo.jpg",
+        "precio": 349.00,
+        "descripcion": "Katniss se convierte en el símbolo de la rebelión contra el Capitolio. Junto con sus aliados, lucha para derrocar al Presidente Snow y liberar a los ciudadanos de Panem de la opresión y el control del Capitolio."
+    },
+    {
+        "titulo": "Balada De Pájaros Cantores y Serpientes",
+        "saga": "Los Juegos del Hambre",
+        "imagen":"img/balada de pajaros.jpg",
+        "precio": 399.00,
+        "descripcion": "Precuela que sigue al joven Coriolanus Snow mucho antes de convertirse en el tiránico presidente de Panem. Durante los décimos Juegos del Hambre, Snow es mentor de una tributo femenina del empobrecido Distrito 12."
+    },
+    {
+        "titulo": "Insignia",
+        "saga": "Insignia",
+        "imagen":"img/insignia.webp",
+        "precio": 299.00,
+        "descripcion": "Tom Raines es un chico que tiene una habilidad única para los videojuegos, y es reclutado por el ejército para luchar en una guerra virtual que decidirá el futuro del mundo."
+    },
+    {
+        "titulo": "Vortex",
+        "saga": "Insignia",
+        "imagen":"img/vortex.jpg",
+        "precio": 299.00,
+        "descripcion": "Tom Raines debe enfrentar nuevas amenazas y desafíos en su entrenamiento militar mientras descubre secretos oscuros sobre la guerra y las personas que la controlan."
+    },
+    {
+        "titulo": "Catalyst",
+        "saga": "Insignia",
+        "imagen":"img/catalyst.jpg",
+        "precio": 299.00,
+        "descripcion": "En la emocionante conclusión de la saga, Tom y sus amigos deben tomar decisiones difíciles y enfrentarse a poderosos enemigos para proteger el futuro de la humanidad."
+    }
+]
