@@ -1,8 +1,12 @@
+.navbar a:hover {
+  background-color: #ffffff9a;
+
+}
 
 #book{
     background-color: gray;
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 80px;
 }
 /*details*/
 .card-img-top{

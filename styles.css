@@ -1,6 +1,11 @@
+.navbar a:hover {
+  background-color: #ffffff9a;
+
+}
+
 #catalog{
     background-color: gray;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 #book{

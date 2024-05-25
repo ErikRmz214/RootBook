@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </i>
                                 Comprar</button>
 
-                                <button type="button" class="btn btn-warning">
+                                <button type="button" class="btn btn-warning" id="add-to-cart-btn">
                                 <i class="bi bi-cart-plus">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
                                 <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
@@ -39,10 +39,16 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </svg>
                                 </i>
                                 Agregar a carrito</button>
+
                                 <a class="nav-link" href="index.html"><button type="button" class="btn btn-secondary">Atras</button></a>
                             </div>
                         </div>
                     `;
+
+                    // Añadir el event listener al botón "Agregar a carrito"
+                    document.getElementById('add-to-cart-btn').addEventListener('click', function() {
+                        addToCart(book);
+                    });
                 } else {
                     detailsContainer.innerHTML = '<p>Producto no encontrado.</p>';
                 }
@@ -52,3 +58,10 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('product-details').innerHTML = '<p>No se ha seleccionado ningún producto.</p>';
     }
 });
+
+function addToCart(book) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push(book);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert('El producto ha sido agregado al carrito.');
+}

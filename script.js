@@ -4,7 +4,7 @@
         var modalInstance = new bootstrap.Modal(modal);
         modalInstance.show();
     };
-
+ 
 document.addEventListener('DOMContentLoaded', function() {
     fetch('books.json')
         .then(response => response.json())
